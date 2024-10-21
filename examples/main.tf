@@ -23,7 +23,7 @@ locals {
 ################################################################################
 
 module "vpc" {
-  source = "../"
+  source = "github.com/fojiglobal/anthony-tf-vpc?ref=v1.0.0"
 
   name = local.name
   cidr = local.vpc_cidr
